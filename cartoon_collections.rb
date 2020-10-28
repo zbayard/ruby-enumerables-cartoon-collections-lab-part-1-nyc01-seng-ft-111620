@@ -16,7 +16,7 @@ def list_dwarves(array)
 end
 
 dwarves = %w{Doc Dopey Bashful Grumpy}
-puts roll_call_dwarves(dwarves)
+puts list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
