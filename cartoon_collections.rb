@@ -15,8 +15,8 @@ def list_dwarves(array)
   end.join("\n")
 end
 
-dwarves = %w{Doc Dopey Bashful Grumpy}
-puts list_dwarves
+
+
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
