@@ -10,10 +10,13 @@ end
 
 def list_dwarves(array)
 
-  array.each_with_index do |index , character|
-    puts array[character]= index += 1
-  end
+  array.map.with_index do |dwarf, i|
+    "#{i + 1}. #{dwarf}"
+  end.join("\n")
+end
+
+dwarves = %w{Doc Dopey Bashful Grumpy}
+puts roll_call_dwarves(dwarves)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-end
